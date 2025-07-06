@@ -23,7 +23,7 @@ int main() {
   cout << "Enter the weight of the package (in kilograms): " << flush;
   cin >> weight;
   
-  if (weight <= 0 || weight > 20) {
+  if (weight <= 0) {
     cout << "Invalid weight. Weight must be greater than 0. Please restart the program." << endl;
     return 0;
   }
