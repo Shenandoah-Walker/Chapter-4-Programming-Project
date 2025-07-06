@@ -18,7 +18,7 @@ int main() {
   length = 0;
   width = 0;
 
-  //Display menu and get request user choice
+  //Display menu and request user choice
   cout << "Geometry Calculator" << endl;
   cout <<  "1. Calculate the Area of a Circle" << endl;
   cout << "2. Calculate the Area of a Rectangle" << endl;
